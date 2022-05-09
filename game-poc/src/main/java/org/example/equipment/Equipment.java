@@ -1,7 +1,9 @@
-package org.example;
+package org.example.equipment;
 
 import lombok.Builder;
 import lombok.Data;
+import org.example.Status;
+import org.example.card.Card;
 
 import java.util.HashMap;
 import java.util.List;

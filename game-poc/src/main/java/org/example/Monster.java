@@ -6,14 +6,15 @@ import lombok.Data;
 import java.util.Map;
 import java.util.UUID;
 
-@Data
 @Builder
-public class Card {
+@Data
+public class Monster {
 
     private UUID id;
 
-    private CardName name;
+    private MonsterName name;
 
-    private Map<Effect, Long> effectList;
+    private Map<Status, Long> statusList;
+
 
 }

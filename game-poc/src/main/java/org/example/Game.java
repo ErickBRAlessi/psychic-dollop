@@ -1,9 +1,16 @@
 package org.example;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+
 import java.util.Arrays;
 import java.util.Map;
 import java.util.UUID;
 
+@Builder
+@AllArgsConstructor
+@Data
 public class Game {
 
     private UUID id;
@@ -12,8 +19,10 @@ public class Game {
 
     private Dungeon dungeon;
 
+
     public Game(Dungeon dungeon, Player... players) {
         id = UUID.randomUUID();
+        this.dungeon = dungeon;
         Arrays.stream(players).forEach(player -> addPlayer(player));
     }
 

@@ -1,4 +1,9 @@
-package org.example;
+package org.example.equipment;
+
+import org.example.Status;
+import org.example.card.Card;
+import org.example.card.CardFactory;
+import org.example.card.CardName;
 
 import java.util.ArrayList;
 import java.util.HashMap;

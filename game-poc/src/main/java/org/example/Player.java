@@ -2,6 +2,9 @@ package org.example;
 
 import lombok.Builder;
 import lombok.Data;
+import org.example.card.Card;
+import org.example.equipment.Equipment;
+import org.example.equipment.EquipmentKind;
 
 import java.util.List;
 import java.util.Map;

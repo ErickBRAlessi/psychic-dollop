@@ -1,4 +1,6 @@
-package org.example;
+package org.example.card;
+
+import org.example.Effect;
 
 import java.util.HashMap;
 import java.util.Map;

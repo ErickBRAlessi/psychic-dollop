@@ -1,5 +1,9 @@
 package org.example;
 
+import org.example.equipment.Equipment;
+import org.example.equipment.EquipmentFactory;
+import org.example.equipment.EquipmentName;
+
 import java.util.*;
 
 public abstract class PlayerFactory {
